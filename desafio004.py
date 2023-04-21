@@ -1,0 +1,7 @@
+v = input('Digite algo:')
+print('E Alfa Numerico? {}' .format(v.isalnum()))
+print('E alfabetico? {}'.format(v.isalpha()))
+print('E numerico? {}'.format(v.isnumeric()))
+print('Tipo primitivo é {}'.format(type(v)))
+print('esta em maiuscula? {}'.format(v.isupper()))
+print('esta em minuscula? {}'.format(v.islower()))
