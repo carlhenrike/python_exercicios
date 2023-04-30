@@ -1,5 +1,5 @@
-valor_casa = float(input('Qual valor da casa que você deseja comprar? '))
-salario = float(input('Qual e o seu salario mensal? '))
+valor_casa = float(input('Qual valor da casa que você deseja comprar? R$'))
+salario = float(input('Qual e o seu salario mensal? R$'))
 anos_pagar = int(input('Em quantos anos deseja levar para pagar?'))
 
 parcelas = valor_casa / (anos_pagar * 12)
