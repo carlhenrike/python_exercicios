@@ -1,7 +1,7 @@
-c = 1 while c != 10:
-
+c = 1
+while c != 11:
     print(c)
 
-    c+=1
+    c += 1
 
 print('Acabou')
